@@ -1,4 +1,4 @@
-.TH hsh 1 "01 April 2021" "Claudette & Tuva version 1.0" "General Commands Manual"
+.TH hsh 1 "11 April 2021" "Christian & Kibirt version 1.0" "General Commands Manual"
 .hy
 .SH NAME
 .PP
@@ -9,8 +9,6 @@ hsh - A simple UNIX command interpreter
 
 hsh [options] [command_string | file]
 
-.SH COPYRIGHT
-hsh is Copyright (C) 2021 by Keira Tuva Foundation, Org.
 .SH DESCRIPTION
 .PP
 hsh is an
@@ -34,14 +32,14 @@ To be determined
 .SH AUTHORS
 .PP
 NAME:
-.B Claudette Mokeira
+.B Nshimyumukiza Christian
 .RS i
 EMAIL:
-.claudette.keira@gmail.com
+.B nshimyumukizachristian@gmail.com
 
 .PP
 NAME:
-.B Alfred Tuva
+.B Kibirt Chane
 .RS i
 EMAIL:
-.B muindetuva@gmail.com
+.B kibirtbayou@yahoo.com
