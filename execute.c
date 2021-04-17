@@ -3,7 +3,6 @@
 /**
   * execute - Executes the commands passe by the user
   * @args: The list of commands and arguments the user typed
-  *
   * Return: 1 if succesful 0 if not
   */
 
