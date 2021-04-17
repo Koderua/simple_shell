@@ -25,9 +25,7 @@ a simple UNIX command interpreter that acts closely to **sh**
 
 A  shell  is a command-line interpreter that provides a command line user
 
-interface. The first argument at argument [0] is under‐
-
-stood by the shell to be a command. The shell will then run  that  com‐
+interface. The first argument at argument [0] is under‐stood by the shell to be a command. The shell will then run  that  com‐
 
 mand  if  it  can be found and arguments after the first are treated as
 
