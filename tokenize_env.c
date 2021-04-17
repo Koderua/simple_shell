@@ -3,7 +3,6 @@
 /**
   * tokenize_env - Tokenize the PATH to return a list of folders
   * @path: The path string to cnvert to an array
-  *
   * Return: An array of the directories
   */
 
@@ -19,7 +18,6 @@ char **tokenize_env(char *path)
 	 */
 	static char *arr[20] = {NULL};
 
-
 	if (path == NULL)
 		return (NULL);
 
@@ -29,7 +27,5 @@ char **tokenize_env(char *path)
 		arr[i++] = token;
 		token = strtok(NULL, ":");
 	}
-
-
 	return (arr);
 }
