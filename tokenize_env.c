@@ -11,11 +11,6 @@ char **tokenize_env(char *path)
 	char *path_copy = path;
 	int i = 0;
 	char *token;
-	/*
-	 * I'm using a static array to avoid using malloc but I'm not sure
-	 *  whether this is
-	 * good practice i
-	 */
 	static char *arr[20] = {NULL};
 
 	if (path == NULL)
