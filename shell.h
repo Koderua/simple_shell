@@ -30,5 +30,4 @@ void _printenv(void);
 int _strlen(char *s);
 int _strncmp(char *str1, char *str2, int n);
 
-
 #endif /* SHELL_H */

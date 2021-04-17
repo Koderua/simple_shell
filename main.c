@@ -25,7 +25,6 @@ int main(void)
 		{
 			return (0);
 		}
-		/* Exit command we will have to move it */
 		if (_strcmp(line, "exit") == 0)
 		{
 			free(line);
@@ -38,14 +37,12 @@ int main(void)
 			continue;
 		}
 		args = splitline(line);
-		/* Check if args is NULL(Malloc failed) */
 		if (args == NULL)
 		{
 			free(line);
 			free(args);
 			continue;
 		}
-		/* Execute the commands given by user */
 		status = execute(args);
 		free(line);
 		free(args);
