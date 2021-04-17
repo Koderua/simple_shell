@@ -1,8 +1,52 @@
-# SIMPLE SHELL
 
-* This shell is a command-line interpreter that provides a command line user interface for Unix-like operating systems.
+Simple Shell
 
-* It is both an **interactive command language** and a **scripting language**, and is used by the operating system to control the execution of the system using shell scripts.
+**NAME**
+
+hsh - Alx Holberton Simple Shell command interpreter (shell)
+
+
+**SYNOPSIS**
+
+**./hsh**
+
+[command] [arguments ...]
+
+
+
+**DESCRIPTION**
+
+The **hsh** (Simple Shell) is an end of the trimester project for students at  Alx. The objective is to  write
+a simple UNIX command interpreter that acts closely to **sh**
+
+
+
+**Overview**
+
+A  shell  is a command-line interpreter that provides a command line user
+
+interface. The first argument at argument [0] is under‐
+
+stood by the shell to be a command. The shell will then run  that  com‐
+
+mand  if  it  can be found and arguments after the first are treated as
+
+modifiers or options.
+
+
+## To Compile
+
+    gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+
+## Built-ins
+
+ 1. cd - changes current directory of the process.
+
+ Syntax : `cd [DIRECTORY]`
+
+ 2. exit - to exit from the shell you type exit and press ENTER.
+
+ 3. env - prints the environment
 
 Users type commands which get executed within the session.
 
@@ -15,11 +59,9 @@ $cat - to read a file's content
 
 ~~~~
 
-###### How it looks:
-![Example of a shell](https://drive.google.com/file/d/1uT-D43OHTkm2KGS6acF132j5rz9y2n4_/view?usp=sharing)
+## Authors
 
+Contributors to the Alx Shell project
 
-###### Project for:
-Holberton school: ![holberton logo][1] and alx: ![alx logo][2]
-[1]: https://blog.holbertonschool.com/wp-content/uploads/2020/04/unnamed-2.png
-[2]: https://lh3.googleusercontent.com/vH1HTHhq7BIEuhIDuEc2Wrc2LgZigsJEWDR56ALuDFRZv9-jqCgHNHuBHIB-fLrrbwp7tJ8b7qeIJo0VtHUh=s0
+ - [Kibirt B Chane](https://github.com/Koderua) email: kibirtbayou@yahoo.com
+ - [Christian Nshimyumukiza](https://github.com/Crispy-rw) email: nshimyumukizachristian@gmail.com
